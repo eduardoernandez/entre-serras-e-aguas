@@ -11,7 +11,7 @@ url('https://fonts.googleapis.com/css2?family= Pacifico & display=swap');
     --cor01: #0368a6;
     --cor02: #4bb2f29d;
     --cor03: #a0d3f26d;
-    --cor04: #027373;
+    --cor04: #027373a3;
     --cor05: #324001;
     --cor06: #000000;
 }
@@ -57,8 +57,8 @@ body {
     display: inline-block;
     text-align: left;
     text-decoration: none;
-    padding: 10px 20px;
-    background-color: var(--cor02);
+    padding: 20px 5px;
+    background-color: var(--cor03);
     color: #000000;
     border: none;
     border-radius: 5px;
@@ -66,9 +66,11 @@ body {
     list-style: none;
     max-width: 820px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .lista {
+    overflow: hidden;
     list-style: none;
     margin-bottom: 10px;
 }
@@ -142,8 +144,15 @@ ul li {
   }
 
   .meu-footer {
+    background-color: var(--cor04);
     font-family: 'Source Serif Pro', serif;
     font-style: italic;
     font-size: 1em;
     font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    max-width: 840px;
+    margin-left: auto;
+    margin-right: auto;
   }
