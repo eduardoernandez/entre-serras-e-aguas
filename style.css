@@ -8,9 +8,9 @@ url('https://fonts.googleapis.com/css2?family= Pacifico & display=swap');
 @import url('https://fonts.googleapis.com/css2?family= Source + Serif+Pro:ital@1 & display=swap');
 
 :root {
-    --cor01: #0367A6;
-    --cor02: #4BB2F2;
-    --cor03: #a0d3f289;
+    --cor01: #0368a6;
+    --cor02: #4bb2f29d;
+    --cor03: #a0d3f26d;
     --cor04: #027373;
     --cor05: #324001;
     --cor06: #000000;
@@ -35,7 +35,7 @@ body {
 
 .sub-titulo {
     font-family:  'Pacifico', cursive;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bold;
     text-align: center;
     color: var(--cor01);
@@ -45,7 +45,7 @@ body {
 
 .blog {
     font-family: 'Kaushan Script', cursive;
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -65,6 +65,7 @@ body {
     cursor: pointer;
     list-style: none;
     max-width: 820px;
+    margin-top: 20px;
 }
 
 .lista {
@@ -80,7 +81,7 @@ ul {
 ul li {
     flex: 1 0 50%;
     margin-bottom: 10px;
-    max-width: 840px;
+    max-width: 845px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -104,6 +105,10 @@ ul li {
     font-weight: bold;
     line-height: 1.5;
     margin-bottom: 30px;
+    text-align: left;
+    max-width: 840px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
