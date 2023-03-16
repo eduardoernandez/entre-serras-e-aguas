@@ -10,7 +10,7 @@ url('https://fonts.googleapis.com/css2?family= Pacifico & display=swap');
 :root {
     --cor01: #0368a6;
     --cor02: #4bb2f29d;
-    --cor03: #a0d3f26d;
+    --cor03: #a0d3f253;
     --cor04: #027373a3;
     --cor05: #324001;
     --cor06: #000000;
@@ -52,43 +52,6 @@ body {
     
 }
 
-.menu-blocos {
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    text-align: left;
-    text-decoration: none;
-    padding: 20px 5px;
-    background-color: var(--cor03);
-    color: #000000;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    list-style: none;
-    max-width: 820px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.lista {
-    overflow: hidden;
-    list-style: none;
-    margin-bottom: 10px;
-}
-
-ul {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-ul li {
-    flex: 1 0 50%;
-    margin-bottom: 10px;
-    max-width: 845px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .paragrafo-blog {
     font-family: 'Source Serif Pro', serif;
     font-style: italic;
@@ -101,6 +64,19 @@ ul li {
     margin-right: auto;
     text-align: left;
 
+}
+
+.historia-de-caxambu {
+    font-family: 'Source Serif Pro', serif;
+    font-style: italic;
+    font-size: 1.1em;
+    color: #000000;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }
 
 .situada {
