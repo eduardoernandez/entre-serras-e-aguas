@@ -10,7 +10,7 @@ url('https://fonts.googleapis.com/css2?family= Pacifico & display=swap');
 :root {
     --cor01: #0368a6;
     --cor02: #4bb2f29d;
-    --cor03: #a0d3f253;
+    --cor03: rgba(160, 211, 242, 0);
     --cor04: #027373a3;
     --cor05: #324001;
     --cor06: #000000;
