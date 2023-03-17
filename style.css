@@ -80,23 +80,23 @@ body {
 
 .saiba-mais {
     background-color: white;
-    border: 1px solid var(--cor06);
+    border: 1px solid var(--cor01);
     display: inline-block;
-    padding: 10px 20px;
-    color: var(--cor06);
+    padding: 5px 10px;
     text-decoration: none;
 }
 
+
 .saiba-mais a {
-    
-    color: var(--cor06);
-    text-decoration: none;
     text-transform: uppercase;
+    color: var(--cor06);
 }
 
 .saiba-mais:hover {
     background-color: var(--cor01);
-    color: white;
+    color: var(--cor06);
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 
