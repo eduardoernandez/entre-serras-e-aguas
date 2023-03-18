@@ -14,6 +14,7 @@ url('https://fonts.googleapis.com/css2?family= Pacifico & display=swap');
     --cor04: #027373a3;
     --cor05: #324001;
     --cor06: #000000;
+    --cor07: #FFFFFF;
 }
 
 body {
@@ -79,24 +80,34 @@ body {
 }
 
 .saiba-mais {
-    background-color: white;
-    border: 1px solid var(--cor01);
+    background-color: var(--cor07);
+    border: 1px solid var(--cor06);
     display: inline-block;
-    padding: 5px 10px;
+    padding: 0px 30px;
     text-decoration: none;
+    position: relative;
+    left: -20px;
+    top: -50px;
+    color: var(--cor06);
 }
 
 
 .saiba-mais a {
     text-transform: uppercase;
     color: var(--cor06);
+    text-decoration: none;
+    font-size: 1.1em;
 }
 
 .saiba-mais:hover {
     background-color: var(--cor01);
-    color: var(--cor06);
+    color: var(--cor07);
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.saiba-mais:hover a {
+    color: var(--cor07);
 }
 
 
