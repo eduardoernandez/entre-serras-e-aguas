@@ -140,7 +140,7 @@ body {
     }
   }
 
-  .meu-footer {
+.meu-footer {
     background-color: var(--cor04);
     font-family: 'Source Serif Pro', serif;
     font-style: italic;
@@ -152,4 +152,44 @@ body {
     max-width: 840px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+.historia {
+    font-family:  'Pacifico', cursive;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--cor01);
+    margin-top: 30px;
+    text-shadow: 1px 1px 0px var(--cor06);
+    margin-bottom: 30px;
+}
+
+.imagem-caxambu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caxambu-grande {
+    max-width: 840px;
+    height: auto;
+    max-height: 100%;
+    display: none;
+}
+
+.caxambu-pequena {
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .caxambu-grande {
+      display: block;
+    }
+    
+    .caxambu-pequena {
+      display: none;
+    }
   }
