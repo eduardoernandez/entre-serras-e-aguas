@@ -67,6 +67,17 @@ body {
 
 }
 
+.caxambu01 {
+  font-family:  'Pacifico', cursive;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  color: var(--cor01);
+  margin-top: 30px;
+  text-shadow: 1px 1px 0px var(--cor06);
+  margin-bottom: 30px;
+}
+
 .situada {
     font-weight: bold;
     line-height: 1.5;
@@ -222,3 +233,122 @@ body {
     margin-right: auto;
     text-align: center;
   }
+
+.parque-foto04 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .parque-grand {
+   max-width: 840px;
+   height: auto;
+   max-height: 100%;
+   display: none;
+  }
+
+  .parque-peq {
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
+  }
+
+  @media screen and (min-width: 768px) {
+    .parque-grand {
+      display: block;
+    }
+    
+    .parque-peq {
+      display: none;
+    }
+  }
+
+  .parque01 {
+    font-family:  'Pacifico', cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    color: var(--cor01);
+    margin-top: 30px;
+    text-shadow: 1px 1px 0px var(--cor06);
+    margin-bottom: 30px;
+  }
+
+  .meus-h2 {
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    text-align: left;
+    max-width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+  }
+
+  .saiba-mais02 {
+    background-color: var(--cor07);
+    border: 1px solid var(--cor06);
+    display: inline-block;
+    padding: 0px 30px;
+    text-decoration: none;
+    position: relative;
+    left: -20px;
+    top: -50px;
+    color: var(--cor06);
+  }
+
+  .saiba-mais02 a {
+    text-transform: uppercase;
+    color: var(--cor06);
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.saiba-mais02:hover {
+  background-color: var(--cor01);
+  color: var(--cor07);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.saiba-mais02:hover a {
+  color: var(--cor07);
+}
+
+.parque03 {
+  font-family:  'Pacifico', cursive;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--cor01);
+  margin-top: 30px;
+  text-shadow: 1px 1px 0px var(--cor06);
+  margin-bottom: 30px;
+}
+
+.parque04 {
+  font-family: 'Source Serif Pro', serif;
+  font-style: italic;
+  font-size: 1.1em;
+  color: #000000;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  max-width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding: 20px;
+}
+
+.fontes {
+  font-family:  'Pacifico', cursive;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  color: var(--cor01);
+  margin-top: 30px;
+  text-shadow: 1px 1px 0px var(--cor06);
+  margin-bottom: 30px;
+}
+
