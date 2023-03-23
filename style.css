@@ -363,6 +363,20 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  padding: 20px;
+  padding: 5px;
+}
+
+.meu-h2 {
+  color: var(--cor01);
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  padding: 10px;
 }
 
